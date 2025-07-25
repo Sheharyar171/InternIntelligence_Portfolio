@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<html> 
+    <head>
+        <title>Portfolio | Syed Sheharyar Ali</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="headers" >
+            <div class="topHeaders">
+                <div class="left">
+                    <span class="portfolio">Portfolio.</span>
+                </div>
+
+                <div class="right">
+                    <nav>
+                        <span class="options"><a href="#Home">Home</a></span>
+                        <span class="options"><a href="#About">About</a></span>
+                        <span class="options"><a href="#Skills">Skills</a></span>
+                        <span class="options"><a href="#Projects">Projects</a></span>
+                        <span class="options"><a href="#Contact">Contact</a></span>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+       
+
+        <!----------------------------------------------------------------------------------------------------------------------------------->
+        <br><br><br><br><br><br>
+        <div class="nextLine"  id="Home">
+            <div class="nextLineLeft">
+                <span class="briefIntro"><span class="Line1">Hi there, I am</span><br><span class="Line2">Syed Sheharyar Ali</span><br><span class="Line3"> <span class="designation">Software Engineering Student</span></span><br><br>Currently enrolled in BS-Software Engineering from National University<br> of Computer and Emerging Sciences (FAST-NUCES), Islamabad, Pakistan.</span>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <a href="#Contact" id="contactButton">Contact Me &nbsp;<img id="sendLogo" src="Pictures/SendLogo.png"></a>
+               </div>
+
+            <div class="nextLineRight">
+                <span class="profileImage"><img src="Pictures/default-profile-picture-6uzr8dqc41tkonlc.png"></span>
+            </div>
+        </div>
+        <img src="Pictures/Curvy background.png" id="chunk01">
+        <img src="Pictures/Curvy background.png" id="chunk02">
+        <img src="Pictures/BackgroundImageFinger.png" id="chunk03">
+        <div class="bubble-container">
+            <span class="bubble"> </span>
+            <span class="bubble"> </span>
+            <span class="bubble"> </span>
+        </div>
+
+
+        <!----------------------------------------------------------------------------------------------------------------------------------->
+        <br><br><br>
+        <hr class="thick-line">
+        <!----------------------------------------------------------------------------------------------------------------------------------->
+        <img src="Pictures/starBackground.png" id="aboutBackground">
+        <div class="nextPage1">
+            <p id="About">About</p>
+            <p id="aboutSubtitle">Brief Overview<br><br><br></p>
+
+            <div class="aboutFlexContainer">
+                <div class="aboutImage">
+                    <img src="Pictures/about@3x.webp" alt="About Image">
+                </div>
+
+                <div class="aboutText">
+                    <p id="introduction">
+                        Hi! I'm Syed Sheharyar Ali, a Software Engineering student at FAST National University. I specialize in building clean, responsive, and interactive web interfaces using HTML, CSS, and JavaScript, and I'm currently advancing into React.js, Node.js, and MongoDB. With a strong background in C++ and problem-solving, I blend logical thinking with modern UI design to develop efficient and aesthetic web applications. I love transforming ideas into real projects and continuously strive to grow as a full-stack web developer.
+                        <br><br><button id="resumeButton">Resume</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <br><br><br><br><br><br>
+        <hr class="thick-line">
+        <br>
+        <!----------------------------------------------------------------------------------------------------------------------------------->
+
+        <div class="timeline-section" id="Skills">
+            <h2 class="timeline-title">Skills</h2>
+
+            <div class="timeline-point">
+                    <div class="description-boxAbove">React.JS</div>
+                    <div class="description-boxAboveLeftSide">Node.JS</div>
+                    <div class="vertical-lineAboveLeftSide"></div>
+                    <div class="vertical-lineAbove"></div>
+            </div>
+
+           
+
+            <div class="timeline-line">
+                
+                <div class="timeline-point">
+                    <div class="vertical-line"></div>
+                    <div class="description-box">C++</div>
+                </div>
+
+              
+                <div class="timeline-point">
+                    <div class="vertical-line"></div>
+                    <div class="description-box">HTML and CSS</div>
+                </div>
+
+                
+                <div class="timeline-point">
+                    <div class="vertical-line"></div>
+                    <div class="description-box">Javascript</div>
+                </div>
+            </div>
+        </div>
+        <hr class="thick-line">
+
+        <!----------------------------------------------------------------------------------------------------------------------------------->
+
+        <div class="ProjectsContent" >
+            <section id="projects">
+                <h2 id="Projects">Projects</h2>
+
+                <!-- Project Popup Container -->
+                <div class="project-container">
+                
+                <!-- Left Arrow -->
+                <div class="arrow left" onclick="prevSlide()">&#10094;</div>
+
+                <!-- Project Image and Description -->
+                <div class="project-popup">
+                    <img id="projectImage" src="Pictures/project1.png" alt="Project Image">
+                    <p id="projectDescription">This is the first project description.</p>
+                </div>
+
+                <!-- Right Arrow -->
+                <div class="arrow right" onclick="nextSlide()">&#10095;</div>
+
+                </div>
+            </section>
+        </div>
+        <img src="Pictures/Curvy background.png" id="chunk06">
+        <img src="Pictures/Curvy background.png" id="chunk07">
+
+        <script src="script.js"></script>
+        <!----------------------------------------------------------------------------------------------------------------------------------->
+        <hr class="thick-line">
+        <br>
+        <img src="Pictures/ContactBacground.png" id="contactBackgroundImg">
+        <section class="contact-section" id="Contact">
+            <h1 class="contact-title">Contact</h1>
+            <p class="contact-subtitle">Have a question? Want to Collaborate? Just want to chat?<br>Reach out to me on</p>
+
+            <div class="social-icons">
+                <a href="#"><img src="Pictures/LinkedIn.png" alt="LinkedIn" /></a>
+                <a href="#"><img src="Pictures/github.PNG" alt="GitHub" /></a>
+                <a href="#"><img src="Pictures/gmail.png" alt="Gmail" /></a>
+            </div>
+
+            <p class="send-message-label">Send me a message</p>
+
+            <form class="contact-form">
+                <input type="text" placeholder="Full Name" required />
+                <input type="email" placeholder="Email" required />
+                <input type="text" placeholder="Subject" required />
+                <textarea placeholder="Message" rows="5" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+    </body>
+</html>
